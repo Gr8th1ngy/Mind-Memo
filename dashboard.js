@@ -22,7 +22,7 @@ var table = new Tabulator("#example-table", {
      responsiveLayout:"hide",
     layout:"fitColumns", //set initial table data
     columns:[
-        {title:"Name", field:"name", headerFilter:"input", formatter:"link",  formatterParams:{url:"https://docs.google.com/document/d/15vbxSghLXEH_cWklQhAXMUs6O5tUjP_qgtEEGuqXxUg/edit?usp=sharing"}},
+        {title:"Name", field:"name", headerFilter:"input", formatter:"link",  formatterParams:{url:"https://drive.google.com/file/d/1dDpQcqtdxIwlKjgirqUnCn1r486Of8lC/view?usp=sharing"}},
         {title:"Age", field:"age"},
         {title:"Gender", field:"gender"},
         {title:"Date Of Birth", field:"dob"},
