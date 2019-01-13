@@ -81,6 +81,9 @@ html, body {
 
 .logo-banner{
   margin-left: 0;
+  position: absolute;
+    left: 240px;
+    width: 80%;
 }
 
 .demo-layout .demo-navigation .mdl-navigation__link:hover {
@@ -178,16 +181,43 @@ _:-ms-input-placeholder, :root .demo-graph {
 }
 .main {
   margin-left: 240px;
-  /* margin-top: 30px;
-  margin right: 20px; */
-  height: 100%;
-  width: 100%;
 }
 
 .header{
   height: 100%;
     position: fixed;
+    width:100%;
 }
+.tabulator-row, tabulator-table {
+  min-width: 100%;
+}
+#example-table {
+  border-width: 3px;
+border-radius: 20px;
+}
+
+.tabulator-header {
+  border-width:3px;
+}
+
+.tabulator-row .tabulator-cell {
+    height: 100% !important;
+}
+
+.tabulator-row {
+  height: 40px;
+}
+
+.tabulator-tableHolder {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+input {
+  border: 1px grey solid;
+border-radius: 5px;
+}
+
 .demo-options h3 {
   margin: 0;
 }
